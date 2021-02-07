@@ -1,0 +1,1 @@
+cmd_/home/anton/Linux_git/Linux/Kernel_Linux/lkm_example.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 --build-id  -T ./scripts/module-common.lds -o /home/anton/Linux_git/Linux/Kernel_Linux/lkm_example.ko /home/anton/Linux_git/Linux/Kernel_Linux/lkm_example.o /home/anton/Linux_git/Linux/Kernel_Linux/lkm_example.mod.o;  true
